@@ -5,7 +5,7 @@ router.route("/").get((req, res) => {
 });
 
 router.route("/ejs").get((req, res) => {
-  res.render("index", { title: "yooo huuu" });
+  res.render("index", { title: "DDCA Project" });
   res.end();
 });
 
