@@ -5,7 +5,7 @@ router.route("/").get((req, res) => {
 });
 
 router.route("/ejs").get(async (req, res) => {
-  await res.render("index", { title: "DDCA Project" });
+  res.render("index", { title: "DDCA Project" });
   // res.end();
 });
 

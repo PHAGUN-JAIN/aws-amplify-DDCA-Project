@@ -5,7 +5,7 @@ PORT = process.env.PORT || 3000;
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
-app.use("/public", express.static("public")); //specifyinf the path to the static files
+app.use("/public", express.static("public")); //specifying the path to the static files
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
